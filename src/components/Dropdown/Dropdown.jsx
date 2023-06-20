@@ -18,6 +18,7 @@ class Dropdown extends Component {
   //     this.setState({ visible: false });
   //   };
   render() {
+    const { visible } = this.state;
     return (
       <div className={css.Dropdown}>
         <button
@@ -25,7 +26,7 @@ class Dropdown extends Component {
           className={css.Dropdown__toggle}
           onClick={this.toggle}
         >
-          {this.state.visible ? 'Скрыть' : 'Показать'}
+          {visible ? 'Скрыть' : 'Показать'}
         </button>
         {/* <button
           type="button"
