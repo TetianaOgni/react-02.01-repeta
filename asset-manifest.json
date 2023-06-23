@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/.github.io/react-02.01-repeta/static/css/main.a758b8e6.css",
-    "main.js": "/.github.io/react-02.01-repeta/static/js/main.03eb70d8.js",
+    "main.js": "/.github.io/react-02.01-repeta/static/js/main.bef8fe30.js",
     "index.html": "/.github.io/react-02.01-repeta/index.html",
     "main.a758b8e6.css.map": "/.github.io/react-02.01-repeta/static/css/main.a758b8e6.css.map",
-    "main.03eb70d8.js.map": "/.github.io/react-02.01-repeta/static/js/main.03eb70d8.js.map"
+    "main.bef8fe30.js.map": "/.github.io/react-02.01-repeta/static/js/main.bef8fe30.js.map"
   },
   "entrypoints": [
     "static/css/main.a758b8e6.css",
-    "static/js/main.03eb70d8.js"
+    "static/js/main.bef8fe30.js"
   ]
 }
