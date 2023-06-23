@@ -19,7 +19,7 @@ class Counter extends Component {
   //     this.setState({ value: 11 });
   //   };
   //  это если мы хотим изменить стейт от предыдущего мы передаем функцию
-  handleIncrement = event => {
+  handleIncrement = () => {
     this.setState(prevState => {
       return { value: prevState.value + 1 };
     });
