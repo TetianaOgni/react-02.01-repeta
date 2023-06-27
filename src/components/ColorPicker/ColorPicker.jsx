@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import css from './ColorPicker.module.css';
+import classNames from 'classnames';
 
 //-------вариант обычной css не  module.css
 // import './ColorPicker.css';
@@ -59,6 +60,10 @@ class ColorPicker extends Component {
   };
 
   makeOptionClassName = index => {
+    // вариант из 02.02 ставим npm i classnames импортируем его и делаем следующее:
+    // const clsx = classNames('ColorPicher__option', 'onemoreClass', 'andonemoreClass', {'ColorPicker__option--active': index === this.state.activeOptionIdx})
+    // console.log(clsx)
+    // вариант из 02.01
     const optionClasses = [css.ColorPicker__option];
     if (index === this.state.activeOptionIdx) {
       optionClasses.push(css['ColorPicker__option--active']);
